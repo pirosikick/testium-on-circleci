@@ -1,0 +1,7 @@
+launch = false
+
+browser = 'phantomjs'
+
+[app]
+port = 3000
+command = node lib/server.js

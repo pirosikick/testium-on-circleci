@@ -1,0 +1,39 @@
+{
+  "name": "testium-on-circleci",
+  "version": "1.0.0",
+  "description": "Testium on Circle CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:espower-babel/guess test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirosikick/testium-on-circleci"
+  },
+  "author": "Hiroyuki ANAI <pirosikick@gmail.com>",
+  "license": {
+    "type": "MIT",
+    "url": "http://pirosikick.mit-license.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/pirosikick/testium-on-circleci/issues"
+  },
+  "homepage": "https://github.com/pirosikick/testium-on-circleci",
+  "devDependencies": {
+    "babel": "^4.7.16",
+    "espower-babel": "^1.4.0",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0",
+    "gulp-load-plugins": "^0.8.1",
+    "gulp-nodemon": "^1.0.5",
+    "mocha": "^2.2.1",
+    "phantomjs": "^1.9.16",
+    "power-assert": "^0.10.2",
+    "testium": "^2.6.0"
+  },
+  "dependencies": {
+    "express": "^4.12.2",
+    "express-handlebars": "^1.2.2",
+    "lodash": "^3.5.0"
+  }
+}
