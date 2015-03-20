@@ -4,6 +4,7 @@
   "description": "Testium on Circle CI",
   "main": "index.js",
   "scripts": {
+    "start": "gulp build && node lib/server.js",
     "test": "mocha --compilers js:espower-babel/guess test/**/*.js"
   },
   "repository": {
